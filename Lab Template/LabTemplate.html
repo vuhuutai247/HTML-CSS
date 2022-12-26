@@ -5,70 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./LabTemplateStyle.css">
   </head>
   <body>
     <!--header-->
-    <header>
-      <div>
+    <header class="header">
+      <div class="header-top">
         <!-- top head -->
       </div>
-      <div>
-        <img src="" alt="Logo" />
+      <div class="logo">
+        <p>Biccas</p>
       </div>
       <div>
         <!-- Menu -->
-        <nav>
+        <nav class="main-menu">
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Product</a></li>
-            <li><a href="">FAQ</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">About us</a></li>
+            <li class="main-menu-item main-menu-item-active"><a href="">Home</a></li>
+            <li class="main-menu-item"><a href="">Product</a></li>
+            <li class="main-menu-item"><a href="">FAQ</a></li>
+            <li class="main-menu-item"><a href="">Blog</a></li>
+            <li class="main-menu-item"><a href="">About us</a></li>
           </ul>
         </nav>
+        
         <!-- button-->
-        <div>
-          <button>Login</button>
-          <button>Sign up</button>
+
+        <div class="header-button-group">
+          <button class="btn">Login</button>
+          <button class="btn btn-info">Sign up</button>
         </div>
       </div>
       <!-- bot head -->
-      <div>
+      <div class="header-bottom">
         <!-- left -->
-        <div>
-          <h1>Lorem ipsum dolor sit amet</h1>
+        <div class="banner-description">
+          <h1 class="banner-description-title" Lorem ipsum dolor sit amet</h1>
           <img src="" alt="image after title" />
-          <p>Lorem ipsum dolor sit amet</p>
-          <div>
-            <button>Try Free Trial</button>
-            <button>View Demo</button>
+          <div class="banner-description-break"></div>
+          <p class="banner-description-content"> Lorem ipsum dolor sit amet</p>
+          <div class="banner-description-btn">
+            <button class="btn btn-info btn-round"> Try Free Trial</button>
+            <button class="btn">View Demo</button>
           </div>
         </div>
         <!-- right -->
       </div>
-      <div>
+      <div class="banner-image-wrap">
         <img src="" alt="Header bottom right img" />
         <img src="" alt="Credit card" />
         <form action="">
-          <div>
-            <p>Enter amount</p>
-            <input type="text" value="$450" />
-            <button>Send</button>
+          <div class="form-group">
+            <p class="text-grey">Enter amount</p>
+            <input class="form-control-input" type="text" value="$450" />
+            <button class="btn btn-info btn-round btn-sm">Send</button>
           </div>
         </form>
         <div>
-          <p>Total income</p>
+          <p class="text-grey">Total income</p>
           <p>$250</p>
           <img src="" alt="icon" />
         </div>
       </div>
     </header>
     <!-- main-->
-    <main>
+    <main id="main">
       <!-- Part 1 -->
-      <section>
+      <section id="analyst">
         <h2>More than 25,000 teams use Collabs</h2>
-        <div>
+        <div class="part-1">
           <div>
             <img src="" alt="Company Icon" />
             <p>Unsplash</p>
@@ -94,7 +98,7 @@
         <div>
           <div>
             <h1>Lorem, ipsum dolor</h1>
-            <p>
+            <p class="text-grey">
               Lorem ipsum dolor sit amet 
             </p>
             <div>
@@ -102,13 +106,13 @@
                 <div>
                     <img src="" alt="star icon">
                     <p>4.9/5 rating</p>
-                    <p>Databricks</p>
+                    <p class="text-grey">Databricks</p>
                 </div>
 
                 <div>
                     <img src="" alt="star icon">
                     <p>4.9/5 rating</p>
-                    <p>Chanalysics</p>
+                    <p class="text-grey">Chanalysics</p>
                 </div>
             
             </div>
@@ -122,7 +126,7 @@
 
                     <div>
                         <h3>Publishing</h3>
-                        <p>Lorem ipsum dolor sit </p>
+                        <p class="text-grey">Lorem ipsum dolor sit </p>
                     </div>
 
                     <div>
@@ -131,7 +135,7 @@
 
                     <div>
                         <h3>Analystics</h3>
-                        <p>Lorem ipsum dolor sit </p>
+                        <p class="text-grey">Lorem ipsum dolor sit </p>
                     </div>
 
                     <div>
@@ -140,7 +144,7 @@
 
                     <div>
                         <h3>Engagement</h3>
-                        <p>Lorem ipsum dolor sit </p>
+                        <p class="text-grey">Lorem ipsum dolor sit </p>
                     </div>
                 </div>
           </div>
@@ -148,7 +152,7 @@
       </section>
 
       <!-- Part 2 -->
-      <section>
+      <section id="feature">
         <div>
             <div>
                 <h2>Our Features you can get</h2>
@@ -182,7 +186,7 @@
       </section>
 
       <!-- Part 3 -->
-      <section>
+      <section id="benefit">
         <div>
             <div>
                 <h2>What benefit will tou get</h2>
@@ -224,7 +228,7 @@
       </section>
 
       <!-- Part 4 -->
-      <section>
+      <section class="plan">
         <div>
             <div>
                 <h2>Lorem ipsum dolor sit </h2>
@@ -295,7 +299,7 @@
       </section>
 
       <!-- Part 5 -->
-      <section>
+      <section id="contact">
         <div>
             <h1>Lorem ipsum dolor sit</h1>
             <p>Lorem ipsum dolor sit</p>
@@ -344,7 +348,7 @@
       </section>
     </main>
     <!-- footer-->
-    <footer>
+    <footer id="footer">
     <div>
         <div>
             <div>

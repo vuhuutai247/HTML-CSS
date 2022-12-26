@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.logo p{
+    color: rgb(18, 223, 154);
+    font-size: 32px;
+}
+
+.main-menu-item{
+    list-style: none;
+}
+
+.main-menu-item a{
+    text-decoration: none;
+    color: rgb(180, 178, 178);
+}
+
+.main-menu-item-active a{
+    color: black;
+}
+
+.btn{
+    color: black;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+.btn-info{
+    background: rgb(77, 250, 192);
+    color: white;
+}
+.banner-description{
+    border: 1px solid red;
+}
+
+.banner-description-title{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.banner-description-break{
+    width: 100%;
+    border: 5px solid aquamarine;
+    background: aquamarine;
+    border-top-right-radius: 1000px;
+    border-top-left-radius: 1000px;
+}.banner-description-content{
+    font-weight: 700;
+}
+
+.btn-round{
+    border-radius: 50px;
+}
+
+.text-grey{
+    color: #aaa;
+}
+
+.form-control-input{
+    border: none;
+    border-bottom: 1px solid #aaa;
+}
+.btn-sm{
+    padding: 5px;
+    width: 80px;
+    height: 25px;
+    font-size: 14px;
+}
+
+.part-1{
+    color: rgb(107, 106, 106);
+}
+
+
