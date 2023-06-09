@@ -1,0 +1,19 @@
+.text-red{
+    color: red;
+    background-color: red;
+}
+$font-sm: 20px;
+.main a{
+    color: blue;
+    font-size: $font-sm;
+}
+
+.nav{
+    .nav-item{
+        list-style-type: none;
+        &:hover{
+            color: red;
+            background-color: rebeccapurple;
+        }
+    }
+}

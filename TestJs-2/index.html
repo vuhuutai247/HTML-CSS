@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <canvas id="board" style="width:90% ; height: 90vh; border: 1px solid;"></canvas> -->
+
+    <div>
+        <h1>Them moi</h1>
+        <form action="">
+            <p>Name</p>
+            <input id="productName" type="text">
+            <p>Price</p>
+            <input type="text" id="productPrice">
+            <button type="button" id="createProduct">Add</button>
+        </form>
+    </div>
+
+    <h1>Danh sach san pham</h1>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Action</th>
+        </tr>
+        <tbody id="productList">
+            <td>1</td>
+            <td><img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/7077/282959/dong-ho-befit-b4-thumbnn-600x600.jpg" width="100px" alt=""></td>
+            <td>Iphone</td>
+            <td>20</td>
+            <td>
+                <button class="edit" data-id="1">Edit</button>
+                <button class="delete" data-id="1">Delete</button>
+            </td>
+        </tbody>
+    </table>
+</body>
+<script src="./index.js"></script>
+<script src="./Index2.js"></script>
+</html>

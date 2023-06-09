@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+        [class*=col]
+      .main {
+        background: #aaa;
+      }
+
+      @media only screen and (max-width: 578px) {
+        /* .main {
+          background: red;
+        } */
+      }
+
+      @media only screen and (max-width: 768px) and (min-width: 578px) {
+        /* .main {
+          background: blue;
+        } */
+      }
+
+      @media only screen and (max-width: 1200px) and (min-width: 768px) {
+        /* .main {
+          background: yellow;
+        } */
+      }
+
+      @media only screen and (min-width: 1200px) {
+        .main {
+          background: grey;
+        }
+      }
+      .row::after{
+        clear: both;
+      }
+      .Header{
+        background: #ccc;
+        height: 100px;
+        text-align: left;
+      }
+    
+    </style>
+  </head>
+  <body>
+    <header class="Header">
+        <h1>Chania</h1>
+    </header>
+    <main class="main row">
+        <nav class="nav-menu col-3">
+            <ul>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+            </ul>
+        </nav>
+        <div class="content col-9">
+            <h1>The city</h1>
+        </div>
+        
+    </main>
+  </body>
+</html>
