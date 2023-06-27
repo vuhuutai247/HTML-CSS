@@ -1,0 +1,17 @@
+.text-red {
+  color: red;
+  background-color: red;
+}
+
+.main a {
+  color: blue;
+  font-size: 20px;
+}
+
+.nav .nav-item {
+  list-style-type: none;
+}
+.nav .nav-item:hover {
+  color: red;
+  background-color: rebeccapurple;
+}/*# sourceMappingURL=style.css.map */
